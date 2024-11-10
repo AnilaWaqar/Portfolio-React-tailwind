@@ -1,3 +1,4 @@
+
 // pages/_app.tsx
 
 import Layout from './components/layout';  // Layout component import karein

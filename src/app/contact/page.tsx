@@ -67,7 +67,7 @@ export default function Contact() {
                 className="p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-[#70b82d]"
               />
               <textarea
-                rows="4"
+                rows= {4}
                 placeholder="Your Message"
                 className="p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-[#70b82d]"
               />
