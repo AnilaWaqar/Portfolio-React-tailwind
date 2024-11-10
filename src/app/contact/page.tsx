@@ -1,12 +1,12 @@
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
+
+
 import { FaLinkedin, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 export default function Contact() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Navbar */}
-      <Navbar />
+    
 
       {/* Main Content */}
       <main className="flex-grow flex flex-col items-center justify-center px-6 md:px-20 py-10 bg-gray-50">
@@ -16,7 +16,7 @@ export default function Contact() {
             Get in Touch
           </h1>
           <p className="text-lg md:text-xl text-center mb-8">
-            Feel free to connect with me on LinkedIn, WhatsApp, or drop me an email. I'm always happy to connect!
+            Feel free to connect with me on LinkedIn, WhatsApp, or drop me an email. I am always happy to connect!
           </p>
 
           {/* Contact Options */}
@@ -45,7 +45,7 @@ export default function Contact() {
 
             {/* Email */}
             <a 
-              href="anilawaqar101@gmail.com" // Replace with your email address
+           href="mailto:anilawaqar101@gmail.com" // Replace with your email address
               className="flex items-center gap-4 px-6 py-4 rounded-lg bg-[#dca735] text-white hover:bg-[#b8912e] transition duration-300 ease-in-out w-full md:w-auto"
             >
               <FaEnvelope className="text-3xl" />
@@ -83,7 +83,7 @@ export default function Contact() {
       </main>
 
       {/* Footer */}
-      <Footer />
+      
     </div>
   );
 }

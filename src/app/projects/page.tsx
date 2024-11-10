@@ -1,12 +1,11 @@
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
+
 import Image from 'next/image';
 
 export default function Projects() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Navbar */}
-      <Navbar />
+    
 
       {/* Main Content */}
       <main className="flex-grow px-4 md:px-20 py-10 bg-white">
@@ -55,7 +54,7 @@ export default function Projects() {
       </main>
 
       {/* Footer */}
-      <Footer />
+     
     </div>
   );
 }

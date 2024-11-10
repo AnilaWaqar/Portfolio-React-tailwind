@@ -1,12 +1,11 @@
-import Navbar from './components/navbar';
-import Footer from './components/footer';
+
 import Image from 'next/image';
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Navbar */}
-      <Navbar />
+      
 
       {/* Main content */}
       <main className="flex-grow">
@@ -36,7 +35,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <Footer />
+      
     </div>
   );
 }
